@@ -1,9 +1,12 @@
-import logo from './logo.svg';
+//components
+import Header from './components/Header/Header';
 import './App.css';
 
 function App() {
   return (
-    <h1>Let's Get Cookin'</h1>
+    <div>
+      <Header />
+    </div>
   );
 }
 
